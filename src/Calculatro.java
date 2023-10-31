@@ -105,7 +105,7 @@ class Main{
         else if (operation.contains("*")) return "*";
         else return "/";
     }
-    static class Roman{
+    class Roman{
         static String[] arrRom=new String[]{"I","II","III","IV","V","VI","VII","VIII","IX","X"};
         public static boolean isRom(String val){
             for (String s : arrRom) {
